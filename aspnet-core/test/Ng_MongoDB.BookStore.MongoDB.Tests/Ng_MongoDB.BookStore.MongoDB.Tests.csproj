@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Ng_MongoDB.BookStore</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Ng_MongoDB.BookStore.MongoDB\Ng_MongoDB.BookStore.MongoDB.csproj" />
+    <ProjectReference Include="..\Ng_MongoDB.BookStore.TestBase\Ng_MongoDB.BookStore.TestBase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+    <PackageReference Include="Mongo2Go" Version="2.2.12" />
+  </ItemGroup>
+
+</Project>
