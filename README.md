@@ -35,4 +35,3 @@
 > - https://ordina-jworks.github.io/angular/2018/10/08/angular-state-management-comparison.html
 > - https://medium.com/@joshblf/migrating-from-ngrx-to-ngxs-in-angular-6-ddddcdce543e
 > - https://blog.singular.uk/why-i-prefer-ngxs-over-ngrx-df727cd868b5
->>>>>>> updated readme.md
